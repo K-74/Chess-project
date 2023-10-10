@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(187, 147, 99);
+}
+header h1, h2, .logo1 {
+    display: flex;
+    justify-content: center;
+}
+.logos {
+    height: 40px;
+    margin: 0 3px 3px 3px;
+}
+h1 {
+    color: rgb(91, 62, 21);
+    margin: 5% 0 auto auto;
+}
+h2 {
+    color: antiquewhite;
+    font-style:oblique;
+    margin: 5px;
+}
+div {
+    display: flex;
+}
+.chess-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#light-square, #dark-square {
+    border: 1px solid;
+    width: 65px;
+    height: 60px;
+}
+#dark-square {
+    background-color: rgb(92, 62, 21);
+}
+#light-square {
+    background-color: rgb(228, 198, 158);
+}
+.number {
+    margin: 2px;
+}
+.letter {
+    margin: auto 5px 3px auto;
+}
+img {
+    height: 44px;
+    margin: auto;
+}
